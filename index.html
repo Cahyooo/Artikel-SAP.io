@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery.js"></script>
+    <style>
+        h5{
+            margin-bottom: 0;
+        }
+        .prinsip li{
+            margin-bottom: 15px;
+        }
+        .informasi-tambahan{
+            margin-left: 15px;
+        }
+        .active{
+            display: inline;
+        }
+        .not-active{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <main class=" d-flex flex-column m-3 mb-5">
+        <div class="btn-group mb-5 " role="group" aria-label="Basic checkbox toggle button group">
+            <input type="checkbox" class="btn-check filter-btn text-black" id="PSAK" checked autocomplete="off" data-info="PSAK">
+            <label class="btn btn-outline-info" for="PSAK">PSAK</label>
+            <input type="checkbox" class="btn-check filter-btn text-black" id="SAPPemerintah" checked autocomplete="off" data-info="SAPPemerintah">
+            <label class="btn btn-outline-info" for="SAPPemerintah">SAP Pemerintah</label>
+            <input type="checkbox" class="btn-check filter-btn text-black" id="SAP" checked autocomplete="off" data-info="SAP">
+            <label class="btn btn-outline-info" for="SAP">SAP</label>
+        </div>
+        <!--?  -->
+        <!--?  -->
+        <article class="mb-5 dataInformasi" data-info="PSAK">
+            <h1 class="text-center ">PSAK</h1>
+        <p>Kepanjangan PSAK adalah Pernyataan Standar Akuntansi Keuangan. Fungsi PSAK adalah sebagai pedoman utama dalam menyusun laporan keuangan perusahaan. Dalam penyajian informasi laporan keuangan, seorang akuntan wajib mengikuti format baku yang terdapat di standar akuntansi keuangan atau PSAK.</p>
+        <p>Ada lima jenis PSAK yang berlaku dan digunakan oleh perusahaan maupun Pemerintahan Indonesia, di antaranya <b>SAK-IFRS</b>, <b>SAK-ETAP</b>, <b>SAK-Syariah</b>, <b>SAK-EMKM</b>, dan <b>SAP</b>.
+            <br>
+        <ol>
+            <li>
+                <b>SAK-IFRS</b> (Standar Akuntansi Keuangan Internasional) adalah standar akuntansi yang digunakan oleh perusahaan terbuka di Indonesia. SAK-IFRS mengadopsi standar akuntansi yang dikeluarkan oleh International Accounting Standards Board (IASB).
+            </li>
+            <li>
+                <b>SAK-ETAP</b> (Standar Akuntansi Keuangan Entitas Tanpa Akuntabilitas Publik) adalah standar akuntansi yang digunakan oleh perusahaan yang tidak termasuk dalam kategori perusahaan terbuka. SAK-ETAP mengadopsi standar akuntansi yang dikeluarkan oleh Ikatan Akuntansi Indonesia (IAI).
+            </li>
+            <li>
+                <b>SAK-Syariah</b> adalah standar akuntansi yang digunakan oleh perusahaan yang menerapkan prinsip syariah dalam kegiatan usahanya. SAK-Syariah mengadopsi standar akuntansi yang dikeluarkan oleh Dewan Standar Akuntansi Syariah IAI.
+            </li>
+            <li>
+                <b>SAK-EMKM</b> (Standar Akuntansi Keuangan Entitas Mikro, Kecil, dan Menengah) adalah standar akuntansi yang digunakan oleh usaha mikro, kecil, dan menengah. SAK-EMKM mengadopsi standar akuntansi yang dikeluarkan oleh IAI.
+            </li>
+            <li>
+                <b>SAP</b> (Standar Akuntansi Pemerintahan) adalah standar akuntansi yang digunakan oleh instansi pemerintah. SAP mengadopsi standar akuntansi yang dikeluarkan oleh Kementerian Keuangan Republik Indonesia.
+            </li>
+        </ol>
+            <br>
+            Berikut adalah penjelasan singkat dari masing-masing jenis PSAK:
+            <br>
+        <ol>
+            <li>
+                <b>SAK-IFRS</b>
+            SAK-IFRS bertujuan untuk menghasilkan laporan keuangan yang andal, relevan, dan dapat dibandingkan. SAK-IFRS juga bertujuan untuk meningkatkan transparansi dan akuntabilitas perusahaan.
+            </li>
+            <li>
+                <b>SAK-ETAP</b>
+            SAK-ETAP bertujuan untuk menghasilkan laporan keuangan yang andal, relevan, dan dapat dibandingkan. SAK-ETAP juga bertujuan untuk meningkatkan transparansi dan akuntabilitas perusahaan yang tidak termasuk dalam kategori perusahaan terbuka.
+            </li>
+            <li>
+                <b>SAK-Syariah</b>
+                SAK-Syariah bertujuan untuk menghasilkan laporan keuangan yang andal, relevan, dan dapat dibandingkan. SAK-Syariah juga bertujuan untuk meningkatkan transparansi dan akuntabilitas perusahaan yang menerapkan prinsip syariah dalam kegiatan usahanya.
+            </li>
+            <li>
+                <b>SAK-EMKM</b>
+                SAK-EMKM bertujuan untuk menghasilkan laporan keuangan yang andal, relevan, dan dapat dibandingkan. SAK-EMKM juga bertujuan untuk meningkatkan transparansi dan akuntabilitas usaha mikro, kecil, dan menengah.
+            </li>
+            <li>
+                <b>SAP</b>
+                SAP bertujuan untuk menghasilkan laporan keuangan yang andal, relevan, dan dapat dibandingkan. SAP juga bertujuan untuk meningkatkan transparansi dan akuntabilitas instansi pemerintah.
+            </li>
+        </ol>
+           </p>
+        </article>
+        <!--?  -->
+        <!--?  -->
+        <!--?  -->
+        <article class="mb-5 dataInformasi" data-info="SAPPemerintah">
+            <h1 class="text-center ">SAP menurut Pertaturan Pemerintah</h1>
+            <p>
+                Standar Akuntansi Pemerintahan Standar akuntansi merupakan pedoman dan prinsip yang mengatur perlakuan akuntansi dalam penyusunan laporan keuangan (Darise, 2008). Standar akuntansi pemerintahan (SAP) menurut Peraturan Pemerintah Nomor 71 Tahun 2010 adalah prinsip-prinsip akuntansi yang diterapkan dalam menyusun dan menyajikan laporan keuangan pemerintah. Dengan demikian SAP merupakan persyaratan yang mempunyai kekuatan hukum dalam upaya meningkatkan kualitas laporan keuangan di Indonesia.
+                <br><br>
+                Sesuai dengan Pasal 4 Peraturan Pemerintah Nomor 71 Tahun 2010 menyatakan bahwa pemerintah harus 
+                menerapkan SAP berbasis akrual. SAP  berbasis akrual adalah SAP yang mengakui pendapatan, beban, aset, utang, dan ekuitas dalam pelaporan finansial berbasis akrual, serta mengakui pendapatan, belanja dan pembiayaan dalam pelaporan pelaksanaan anggaran berdasarkan basis yang ditetapkan dalam APBN/APBD.
+                <br><br>
+                Peraturan Pemerintah Nomor 24 Tahun 2005 mengatur Standar Akuntansi Pemerintah berdasarkan basis kas dan berdasarkan basis kas menuju akrual. Peraturan Pemerintah Nomor 71 Tahun 2010 mengatur Standar Akuntansi Pemerintahan berdasarkan basis akrual. Sedangkan Permendagri Nomor 64 Tahun 2013 tentang penerapan SAP berbasis akrual pada Pemerintah Daerah.
+            </p>
+        </article>
+        <!--?  -->
+        <!--?  -->
+        <!--?  -->
+        <article class="mb-5 dataInformasi" data-info="SAP">
+            <h1 class="text-center "><b>SAP</b></h1>
+            <h4><b>Pengertian SAP</b></h4>
+            <p>Standar Akuntansi Pemerintahan (SAP) adalah seperangkat aturan dan pedoman yang mengatur proses akuntansi dan pelaporan keuangan di lingkungan pemerintah. SAP bertujuan untuk menghasilkan laporan keuangan yang andal dan transparan, serta dapat digunakan untuk pengambilan keputusan oleh berbagai pihak, baik internal maupun eksternal instansi pemerintah.</p>
+            <h4><b>Tujuan SAP</b></h4>
+            <ul>
+                <li>Menghasilkan laporan keuangan yang andal dan transparan, serta dapat digunakan untuk pengambilan keputusan oleh berbagai pihak, baik internal maupun eksternal instansi pemerintah.</li>
+                <li>Meningkatkan akuntabilitas dan transparansi pengelolaan keuangan negara.</li>
+                <li>Meningkatkan efisiensi dan efektivitas pengelolaan keuangan negara.</li>
+                <li>Meningkatkan kepercayaan masyarakat terhadap pengelolaan keuangan negara.</li>
+            </ul>
+            <h4><b>Manfaat SAP</b></h4>
+            <p>Manfaat SAP adalah sebagai berikut:</p>
+            <ul>
+                <li>Meningkatkan akurasi dan kelengkapan informasi keuangan pemerintah.</li>
+                <li>Mempermudah proses pengambilan keputusan oleh berbagai pihak.</li>
+                <li>Meningkatkan transparansi dan akuntabilitas pengelolaan keuangan negara.</li>
+                <li>Meningkatkan kepercayaan masyarakat terhadap pengelolaan keuangan negara.</li>
+            </ul>
+            <h4><b>Prinsip-prinsip SAP</b></h4>
+            <p>
+                Prinsip-prinsip SAP adalah landasan yang digunakan dalam penyusunan dan penyajian laporan keuangan pemerintah. Prinsip-prinsip ini bertujuan untuk menghasilkan laporan keuangan yang andal dan transparan, serta dapat digunakan untuk pengambilan keputusan oleh berbagai pihak.
+                <br>
+                Ada delapan prinsip SAP, yaitu:
+            </p>
+            <ol class="prinsip">
+                <li>
+                    <h5><b>Basis akuntansi</b></h5>
+                    Basis akuntansi yang digunakan dalam SAP adalah basis akrual. Basis akrual mengakui pendapatan dan beban pada saat terjadi, bukan pada saat kas diterima atau dibayarkan.
+                </li>
+                <li>
+                    <h5><b>Nilai historis</b></h5>
+                    Prinsip nilai historis menyatakan bahwa aset dan kewajiban dicatat sebesar harga perolehan.
+                </li>
+                <li>
+                    <h5><b>Realisasi</b></h5>
+                    Prinsip realisasi menyatakan bahwa pendapatan diakui pada saat hak untuk menerima manfaat ekonomi telah diperoleh, dan beban diakui pada saat kewajiban telah timbul atau biaya telah terjadi.
+                </li>
+                <li>
+                    <h5><b>Substansi mengungguli bentuk formal</b></h5>
+                    Prinsip substansi mengungguli bentuk formal menyatakan bahwa transaksi dan peristiwa keuangan harus dicatat sesuai dengan substansinya, bukan hanya berdasarkan bentuk formalnya.
+                </li>
+                <li>
+                    <h5><b>Periodisitas</b></h5>
+                    Prinsip periodisitas menyatakan bahwa laporan keuangan harus disusun dan disajikan secara periodik, biasanya setiap tahun.
+                </li>
+                <li>
+                    <h5><b>Konsistensi</b></h5>
+                    Prinsip konsistensi menyatakan bahwa metode akuntansi yang digunakan harus konsisten dari periode ke periode.
+                </li>
+                <li>
+                    <h5><b>Pengungkapan lengkap</b></h5>
+                    Prinsip pengungkapan lengkap menyatakan bahwa laporan keuangan harus mengungkapkan semua informasi yang relevan dan material untuk pengguna laporan keuangan.
+                </li>
+                <li>
+                    <h5><b>Penyajian wajar</b></h5>
+                    Prinsip penyajian wajar menyatakan bahwa laporan keuangan harus disajikan secara wajar, mencerminkan substansi ekonomi dari transaksi dan peristiwa keuangan.
+                </li>
+            </ol>
+            <p>
+            <h4><b>Basis akuntansi</b></h4>
+            <p>Basis akuntansi adalah metode yang digunakan untuk mengakui pendapatan dan beban dalam akuntansi. Ada dua basis akuntansi yang umum digunakan, yaitu:</p>
+            <ul>
+                <li>
+                    <h5><b>Basis akrual</b></h5>
+                    Basis akrual mengakui pendapatan dan beban pada saat terjadi, bukan pada saat kas diterima atau dibayarkan. Basis akrual ini lebih akurat dalam mencerminkan kondisi keuangan suatu entitas, karena pendapatan dan beban diakui pada saat terjadi, terlepas dari kapan kas diterima atau dibayarkan.Dalam SAP, basis akuntansi yang digunakan adalah basis akrual.
+                </li>
+                <li>
+                    <h5><b>Basis kas</b></h5>
+                    Basis kas mengakui pendapatan dan beban pada saat kas diterima atau dibayarkan. Basis kas ini lebih sederhana dan mudah diimplementasikan, tetapi kurang akurat dalam mencerminkan kondisi keuangan suatu entitas.
+                </li>
+            </ul>
+            <h5 class="informasi-tambahan"><b>Informasi tambahan</b></h5>
+            <p>Selain delapan prinsip SAP di atas, terdapat juga beberapa prinsip lainnya yang dapat digunakan dalam penerapan SAP, seperti:</p>
+            <ul>
+                <li>
+                    <h5><b>Prinsip kehati-hatian</b></h5>
+                    Prinsip kehati-hatian menyatakan bahwa dalam kondisi ketidakpastian, entitas harus memilih perlakuan akuntansi yang menghasilkan aset atau pendapatan yang lebih rendah, atau beban atau kewajiban yang lebih tinggi.
+                </li>
+                <li>
+                    <h5><b>Prinsip kelangsungan usaha</b></h5>
+                    Prinsip kelangsungan usaha menyatakan bahwa entitas diasumsikan akan melanjutkan operasinya secara berkelanjutan, kecuali terdapat bukti yang kuat yang menunjukkan bahwa entitas tidak akan melanjutkan operasinya secara berkelanjutan.
+                </li>
+                <li>
+                    <h5><b>Prinsip penyajian wajar lainnya</b></h5>
+                    Prinsip penyajian wajar lainnya adalah prinsip yang tidak secara eksplisit disebutkan dalam SAP, tetapi dapat digunakan dalam penerapan SAP untuk menghasilkan laporan keuangan yang wajar.
+                </li>
+            </ul>
+            </p>
+        </article>
+    </main>
+    <script src="script.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
